@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_as_cmcintosh_harness_hello_dotnet_core_1747079228668-pr-trigger-input-set
+  identifier: Build_as_cmcintosh_harness_hello_dotnet_core_1747079228668prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_as_cmcintosh_harness_hello_dotnet_core_1747079228668
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
